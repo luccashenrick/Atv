@@ -1,11 +1,11 @@
-let peso = 80
-let altura = 1.80
-let imc = peso / (altura * altura)
+let peso = parseFloat(prompt(`Digite seu peso:`));
+let altura = parseFloat(prompt(`Digite sua altura:`));
+let imc = peso / (altura * altura);
 
-if(imc >= 18.5 && imc < 24.9){
-    console.log(`Está Saudavel\nSeu IMC: ${imc.toFixed(2)}`);
-}
+if (imc >= 18.5 && imc < 24.9) {
+    alert(`Está Saudável\nSeu IMC: ${imc.toFixed(2)}`);
+} 
 
-else{
-    console.log(`Não está Saudavel\nSeu IMC: ${imc.toFixed(2)}`);
+else {
+    alert(`Não está Saudável\nSeu IMC: ${imc.toFixed(2)}`);
 }

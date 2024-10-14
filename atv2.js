@@ -1,9 +1,9 @@
-let idade = 19
+let idade = parseInt(prompt(`Digite sua Idade:`));
 
 if (idade >= 18) {
-    console.log(`Você pode dirigir`);
+    alert(`Você pode dirigir`);
 }
 
 else {
-    console.log(`Você ainda não pode dirigir`);
+    alert(`Você ainda não pode dirigir`);
 }

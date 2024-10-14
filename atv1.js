@@ -1,13 +1,13 @@
-let idade = 13
+let idade = parseInt(prompt(`Digite sua Idade:`));
 
-if (idade > 18 && idade < 60) {
-    console.log(`Adulto`);
+if (idade >= 18 && idade <= 59) {
+    alert(`Adulto`);
 }
 
 else if (idade >= 60) {
-    console.log(`Idoso`);
+    alert(`Idoso`);
 }
 
 else {
-    console.log(`Menor de Idade`);
+    alert(`Menor de Idade`);
 }
